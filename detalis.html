@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Car Details | Car Rent</title>
+</head>
+
+<body>
+    <!--start navagation bar -->
+    <nav class="container">
+        <div class="logo">
+           <a href="index.html">
+               <img src="images/logo.png" alt=""></a>
+        </div>
+        <ul class="nav-links">
+           <li class="link"><a href="home.html">الصفحة الرئيسية</a></li>
+           <li class="link"><a href="aboutus.html">حول الشركة</a></li>
+           <li class="link"><a href="cars.html">السيارات</a></li>
+        </ul>
+   </nav>
+<!--end navagation bar -->
+
+    <!-- start details -->
+    <div class="details">
+        <div class="container">
+         <div class="car-images">
+         </div>
+            <div class="information">
+                <table class="cars-table">
+                    <thead>
+                        <tr>
+                            <th>كيفية حساب الايجار</th>
+                            <th>نوع الايجار</th>
+                            <th>تاريخ الصنع</th>
+                            <th>نوع السيارة</th>
+                            <th>شرح عن السيارة</th>
+                        </tr>
+                    </thead>
+                    <tbody id="details-table">
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="buttons">
+                <a href="home.html" class="button">الصفحة الرئيسية</a>
+                <label>
+                    متابعة
+                    <input type="checkbox" class="checkbox" value="true" />
+                </label>
+            </div>
+
+            <form onsubmit="submitForm(event)">
+                <label for="fullName">الأسم الكامل أحرف عربية فقط</label><br>
+                <input type="text" id="fullName" required><br>
+
+                <label for="nationalID">الرقم الوطني المكون من 11 خانة:</label><br>
+                <input type="text" id="nationalID"><br>
+
+                <label for="birthdate">تاريخ الميلاد بالصيغة (dd-mm-yyyy):</label><br>
+                <input type="text" id="birthdate"><br>
+
+                <label for="mobileNumber">رقم موبايل سيريتل او mtn </label><br>
+                <input type="text" id="mobileNumber"><br>
+
+                <label for="email">البريد الالكتروني:</label><br>
+                <input type="email" id="email"><br>
+
+                <label for="rentalDuration">مدة الايجار :</label><br>
+                <input type="number" id="duration"><br>
+
+                <canvas id="captchaCanvas" width="200" height="50"></canvas><br>
+                <input type="text" id="textBox" placeholder="ادخل الرمز الظاهر بالأعلى">
+                <button id="refreshButton" onclick="refreshCaptcha()">توليد رمز جديد</button>
+                <p id="output"></p>
+
+                <button type="submit">ارسال الطلب</button>
+            </form>
+        </div>
+    </div>
+    <!-- end details -->
+
+    <script src="js/myFunctions.js"></script>
+</body>
+
+</html>

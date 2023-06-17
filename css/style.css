@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+body{
+    font-family: 'Cairo', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding: 30px 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+display: block;
+padding: 10px;
+}
+nav ul li a{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+nav img{
+    width: 200px;
+}
+
+
+
+/* Home page style */
+.section-1 {
+background-image: url("../images/backgroundimage.png");
+height: 100vh;
+background-size: cover;
+width: 100%;
+}
+.section-1 h1{
+    color: white;
+    text-align: center;
+}
+.student{
+    background-color: #333;
+    color: #fff;
+    width: 300px;
+    padding: 10px;
+    border-radius: 12px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 16px;
+
+}
+.students{
+    display: flex;
+    justify-content: center;
+}
+.student{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Home page style */
+
+
+
+/* Table Styles */
+
+.table-wrapper{
+    margin: 10px 70px 70px;
+}
+.cars-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+
+.cars-table td, .cars-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+
+
+.cars-table td {
+    border: 1px solid #222;
+    font-size: 16px;
+    max-width: 300px;
+    height: fit-content;
+    white-space: initial;
+   
+}
+.cars-table td img {
+  max-width:200px ;
+}
+
+
+.cars-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.cars-table thead th {
+    color: #ffffff;
+    background: #000;
+    font-size: 16px;
+}
+/* Table Styles */
+
+
+.details img{
+    width: 300px;
+    border-radius: 12px;
+}
+
+.buttons{
+    display: flex;
+
+}
+.buttons a, .buttons label{
+    color: #fff;
+    background-color: #222;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+form{
+    display: block;
+    border: 1px solid #222;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #222;
+    color: #fff;
+    width: fit-content;
+}
+form input{
+    padding:5px 10px;
+    width: 200px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+form button{
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+    display: block;
+    outline: none;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+#captchaCanvas {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #textBox {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  #submitButton, #refreshButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  #submitButton:hover, #refreshButton:hover {
+    background-color: #45a049;
+  }
+  
+  .checkbox {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  #output {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+/* about page */
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-info p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-info strong {
+  font-weight: bold;
+}
