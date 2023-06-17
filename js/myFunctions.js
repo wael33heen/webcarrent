@@ -12,7 +12,7 @@ const cars= [
     },
     {
         id:2,
-        images:["../images/21.jpg","../images/22.jpg"],
+        images:["/images/21.jpg","/images/22.jpg"],
         typeRent:"يومي",
         date:"2018",
         typeCar:"2 CADLILAC ESCALASE ",
