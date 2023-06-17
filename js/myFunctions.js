@@ -12,7 +12,7 @@ const cars= [
     },
     {
         id:2,
-        images:["./images/21.jpg","./images/22.jpg"],
+        images:["images/21.jpg","images/22.jpg"],
         typeRent:"يومي",
         date:"2018",
         typeCar:"2 CADLILAC ESCALASE ",
@@ -22,7 +22,7 @@ const cars= [
     },
     {
         id:3,
-        images:["../images/31.jpg","../images/32.jpg"],
+        images:["images/31.jpg","images/32.jpg"],
         typeRent:"يومي",
         date:"2018",
         price:100000,
@@ -32,7 +32,7 @@ const cars= [
     },
     {
         id:4,
-        images:["../images/41.jpg","../images/42.jpg"],
+        images:["images/41.jpg","images/42.jpg"],
         typeRent:"يومي",
         date:"2018",
         typeCar:"MERCEDES BENZ S500  ",
@@ -42,7 +42,7 @@ const cars= [
     },
     {
         id:5,
-        images:["../images/51.jpg","../images/52.jpg"],
+        images:["images/51.jpg","images/52.jpg"],
         typeRent:"يومي",
         date:"2018",
         typeCar:"BMW 740  ",
@@ -52,7 +52,7 @@ const cars= [
     },
     {
         id:6,
-        images:["../images/61.png","../images/62.jpg"],
+        images:["images/61.png","images/62.jpg"],
         typeRent:"يومي",
         date:"2018",
         typeCar:"AVAL JOLION  ",
@@ -62,7 +62,7 @@ const cars= [
     },
     {
         id:7,
-        images:["../images/71.jpg","../images/72.jpg"],
+        images:["images/71.jpg","images/72.jpg"],
         typeRent:"يومي",
         date:"2018",
         typeCar:"RANG ROVER SPORT   ",
@@ -72,7 +72,7 @@ const cars= [
     },
     {
         id:8,
-        images:["../images/81.jpg","../images/82.jpg"],
+        images:["images/81.jpg","images/82.jpg"],
         typeRent:"يومي",
         date:"2018",
         typeCar:"YUNDAI ACCENT GCC  ",
@@ -82,7 +82,7 @@ const cars= [
     },
     {
         id:9,
-        images:["../images/91.jpg","../images/92.jpg"],
+        images:["images/91.jpg","images/92.jpg"],
         typeRent:"يومي",
         date:"2018",
         typeCar:"CHEVROLET TAHOE ",
@@ -91,7 +91,7 @@ const cars= [
     },
     {
         id:10,
-        images:["../images/101.jpg","../images/102.jpg"],
+        images:["images/101.jpg","images/102.jpg"],
         typeRent:"يومي",
         date:"2018",
         typeCar:"LAMBORGHINI URUS ",
